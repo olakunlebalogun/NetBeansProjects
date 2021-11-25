@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="questions.PageTwoController">
+   <children>
+      <VBox prefHeight="600.0" prefWidth="700.0" spacing="15.0">
+         <children>
+            <HBox prefHeight="190.0" prefWidth="700.0">
+               <children>
+                  <VBox prefHeight="190.0" prefWidth="470.0" spacing="10.0" style="-fx-border-width: 10;">
+                     <children>
+                        <Label prefHeight="61.0" prefWidth="365.0" text="Q4.  Which of the following is correct?">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font></Label>
+                        <RadioButton fx:id="Q4RadioOne" mnemonicParsing="false" text="Occassion" />
+                        <RadioButton fx:id="Q4RadioTwo" mnemonicParsing="false" text="Ocassion" />
+                        <RadioButton fx:id="Q4RadioThree" mnemonicParsing="false" text="Ocasion" />
+                        <RadioButton fx:id="Q4RadioFour" mnemonicParsing="false" text="Occasion" />
+                     </children>
+                     <padding>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </padding>
+                  </VBox>
+               </children>
+            </HBox>
+            <HBox prefHeight="190.0" prefWidth="700.0">
+               <children>
+                  <VBox prefHeight="190.0" prefWidth="389.0" spacing="10.0">
+                     <children>
+                        <Label prefHeight="70.0" prefWidth="368.0" text="Q5. What is the chemical compounds are saturated?">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font></Label>
+                        <RadioButton fx:id="Q5RadioOne" mnemonicParsing="false" text="Ethene" />
+                        <RadioButton fx:id="Q5RadioTwo" mnemonicParsing="false" text="Ethyne" />
+                        <RadioButton fx:id="Q5RadioThree" mnemonicParsing="false" text="Ethane" />
+                        <RadioButton fx:id="Q5RadioFour" mnemonicParsing="false" text="Butene" />
+                     </children>
+                     <padding>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </padding>
+                  </VBox>
+               </children>
+            </HBox>
+            <HBox prefHeight="190.0" prefWidth="200.0">
+               <children>
+                  <VBox prefHeight="190.0" prefWidth="461.0" spacing="10.0">
+                     <children>
+                        <Label prefHeight="81.0" prefWidth="374.0" text="Q6.    Which of the following is NOT a primary color?">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font></Label>
+                        <RadioButton fx:id="Q6RadioOne" mnemonicParsing="false" text="Yellow" />
+                        <RadioButton fx:id="Q6RadioTwo" mnemonicParsing="false" text="Blue" />
+                        <RadioButton fx:id="Q6RadioThree" mnemonicParsing="false" text="Green" />
+                        <RadioButton fx:id="Q6RadioFour" mnemonicParsing="false" text="Red" />
+                     </children>
+                     <padding>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </padding>
+                  </VBox>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                     <children>
+                        <Button layoutX="109.0" layoutY="122.0" mnemonicParsing="false" onAction="#switchtoPageThree" text="Next Page" />
+                     </children>
+                  </AnchorPane>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="763.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tablesample1.FXMLDocumentController">
+   <children>
+      <TableView fx:id="table" layoutX="12.0" layoutY="53.0" prefHeight="362.0" prefWidth="678.0">
+        <columns>
+          <TableColumn fx:id="makerColumn" maxWidth="185.0" prefWidth="185.0" text="Maker" />
+          <TableColumn fx:id="modelColumn" maxWidth="185.0" prefWidth="112.0" text="Model" />
+            <TableColumn fx:id="specColumn" maxWidth="393.0" prefWidth="258.0" text="Specification" />
+            <TableColumn fx:id="priceColumn" maxWidth="497.0" prefWidth="120.0" text="Price" />
+        </columns>
+      </TableView>
+      <Label layoutX="14.0" layoutY="23.0" text="Search:">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="searchTF" layoutX="80.0" layoutY="21.0" onAction="#searchItem" prefHeight="25.0" prefWidth="376.0" promptText="Search Item" />
+      <Label layoutX="18.0" layoutY="435.0" text="Maker:">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="202.0" layoutY="435.0" prefHeight="17.0" prefWidth="92.0" text="Model:">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="399.0" layoutY="435.0" text="Specification:">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="574.0" layoutY="435.0" text="Price:">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <TextField fx:id="makerTF" layoutX="14.0" layoutY="458.0" promptText="Enter Phone maker" />
+      <TextField fx:id="modelTF" layoutX="202.0" layoutY="458.0" promptText="Enter Phone Model" />
+      <TextField fx:id="specTF" layoutX="399.0" layoutY="458.0" promptText="Enter Specification" />
+      <TextField fx:id="priceTF" layoutX="574.0" layoutY="458.0" prefHeight="25.0" prefWidth="116.0" promptText="Enter  Price" />
+      <JFXButton fx:id="addButton" layoutX="21.0" layoutY="511.0" onAction="#addButtonClicked" text="Add">
+         <font>
+            <Font name="Georgia Bold Italic" size="12.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="removeButton" layoutX="107.0" layoutY="511.0" onAction="#removeButtonClicked" text="Remove">
+         <font>
+            <Font name="Georgia Bold Italic" size="12.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="addToCartButton" layoutX="574.0" layoutY="511.0" text="Add to Cart" textFill="#2b1cc6">
+         <font>
+            <Font name="Georgia Bold Italic" size="12.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

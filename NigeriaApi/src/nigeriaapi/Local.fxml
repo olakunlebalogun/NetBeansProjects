@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="pane" prefHeight="545.0" prefWidth="460.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="nigeriaapi.LocalController">
+   <children>
+      <Label layoutX="103.0" layoutY="21.0" text="Local Goverment">
+         <font>
+            <Font name="Segoe UI Bold" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="63.0" layoutY="147.0" text="Local Govt">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="63.0" layoutY="260.0" text="City">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="63.0" layoutY="205.0" text="State">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="local" layoutX="172.0" layoutY="147.0" />
+      <ComboBox fx:id="state" layoutX="171.0" layoutY="205.0" onAction="#stateComboClicked" prefWidth="150.0" />
+      <ComboBox fx:id="city" layoutX="172.0" layoutY="260.0" onAction="#cityComboClicked" prefWidth="150.0" />
+      <Button fx:id="add" layoutX="171.0" layoutY="336.0" mnemonicParsing="false" onAction="#addClicked" text="Add">
+         <font>
+            <Font name="Segoe UI Bold Italic" size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="edit" layoutX="270.0" layoutY="336.0" mnemonicParsing="false" onAction="#editClicked" text="Edit">
+         <font>
+            <Font name="Segoe UI Bold Italic" size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="delete" layoutX="211.0" layoutY="395.0" mnemonicParsing="false" onAction="#deleteClicked" text="Delete">
+         <font>
+            <Font name="Segoe UI Bold Italic" size="16.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

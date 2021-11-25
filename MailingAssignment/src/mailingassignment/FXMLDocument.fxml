@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="538.0" prefWidth="769.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <BorderPane layoutX="107.0" layoutY="193.0" prefHeight="538.0" prefWidth="769.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <left>
+            <VBox prefHeight="538.0" prefWidth="211.0" style="-fx-background-color: #e7e3e4;" BorderPane.alignment="CENTER">
+               <children>
+                  <Label text="Favourites" textFill="#bdb9ba">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font></Label>
+                  <VBox prefHeight="145.0" prefWidth="191.0">
+                     <children>
+                        <HBox alignment="CENTER_LEFT" prefHeight="34.0" prefWidth="191.0" spacing="20.0">
+                           <children>
+                              <JFXButton maxHeight="1.7976931348623157E308" text="Inbox" textFill="#565657f2">
+                                 <graphic>
+                                    <FontAwesomeIconView fill="#6a6ce8" glyphName="INBOX" />
+                                 </graphic>
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </JFXButton>
+                              <Label alignment="BOTTOM_CENTER" style="-fx-background-radius: 5px;" text="5463" />
+                           </children>
+                           <padding>
+                              <Insets left="3.0" />
+                           </padding>
+                        </HBox>
+                        <HBox alignment="CENTER_LEFT" prefHeight="34.0" prefWidth="191.0" spacing="20.0">
+                           <children>
+                              <JFXButton maxHeight="1.7976931348623157E308" text=" Sent" textFill="#565657f2">
+                                 <graphic>
+                                    <FontAwesomeIconView fill="#6a6ce8" glyphName="SEND_ALT" />
+                                 </graphic>
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </JFXButton>
+                              <Label alignment="BOTTOM_CENTER" style="-fx-background-radius: 5px;" text=" " />
+                           </children>
+                           <padding>
+                              <Insets left="3.0" />
+                           </padding>
+                        </HBox>
+                        <HBox alignment="CENTER_LEFT" prefHeight="34.0" prefWidth="191.0" spacing="20.0">
+                           <children>
+                              <JFXButton maxHeight="1.7976931348623157E308" text="Drafts" textFill="#565657f2">
+                                 <graphic>
+                                    <FontAwesomeIconView fill="#6a6ce8" glyphName="FILE_ALT" />
+                                 </graphic>
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </JFXButton>
+                              <Label alignment="BOTTOM_CENTER" style="-fx-background-radius: 5px;" text="4" />
+                           </children>
+                           <padding>
+                              <Insets left="3.0" />
+                           </padding>
+                        </HBox>
+                        <HBox alignment="CENTER_LEFT" prefHeight="34.0" prefWidth="191.0" spacing="20.0">
+                           <children>
+                              <JFXButton maxHeight="1.7976931348623157E308" text="Flagged" textFill="#565657f2">
+                                 <graphic>
+                                    <FontAwesomeIconView fill="#6a6ce8" glyphName="FLAG_ALT" />
+                                 </graphic>
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </JFXButton>
+                              <Label alignment="BOTTOM_CENTER" style="-fx-background-radius: 5px;" text="12" />
+                           </children>
+                           <padding>
+                              <Insets left="3.0" />
+                           </padding>
+                        </HBox>
+                     </children></VBox>
+                  <Label text="Smart Mailboxes" textFill="#bdb9ba">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font></Label>
+                  <VBox prefHeight="229.0" prefWidth="323.0" spacing="10.0">
+                     <children>
+                        <Label text="olakunlebalogun247@gmail.com" textFill="#bdb9ba">
+                           <font>
+                              <Font name="System Bold" size="11.0" />
+                           </font>
+                        </Label>
+                        <HBox alignment="CENTER_LEFT" prefHeight="34.0" prefWidth="191.0" spacing="20.0">
+                           <children>
+                              <JFXButton maxHeight="1.7976931348623157E308" text="Important" textFill="#565657f2">
+                                 <graphic>
+                                    <FontAwesomeIconView fill="#6a6ce8" glyphName="FOLDER" />
+                                 </graphic>
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </JFXButton>
+                              <Label alignment="BOTTOM_CENTER" style="-fx-background-radius: 5px;" text="72" />
+                           </children>
+                           <padding>
+                              <Insets left="3.0" />
+                           </padding>
+                        </HBox>
+                        <HBox alignment="CENTER_LEFT" prefHeight="34.0" prefWidth="191.0" spacing="20.0">
+                           <children>
+                              <JFXButton maxHeight="1.7976931348623157E308" text="Inbox" textFill="#565657f2">
+                                 <graphic>
+                                    <FontAwesomeIconView fill="#6a6ce8" glyphName="INBOX" />
+                                 </graphic>
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </JFXButton>
+                              <Label alignment="BOTTOM_CENTER" style="-fx-background-radius: 5px;" text="5463" />
+                           </children>
+                           <padding>
+                              <Insets left="3.0" />
+                           </padding>
+                        </HBox>
+                        <HBox alignment="CENTER_LEFT" prefHeight="34.0" prefWidth="191.0" spacing="20.0">
+                           <children>
+                              <JFXButton maxHeight="1.7976931348623157E308" text="Drafts" textFill="#565657f2">
+                                 <graphic>
+                                    <FontAwesomeIconView fill="#6a6ce8" glyphName="FILE_ALT" />
+                                 </graphic>
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </JFXButton>
+                              <Label alignment="BOTTOM_CENTER" style="-fx-background-radius: 5px;" text="4" />
+                           </children>
+                           <padding>
+                              <Insets left="3.0" />
+                           </padding>
+                        </HBox>
+                        <HBox alignment="CENTER_LEFT" prefHeight="34.0" prefWidth="191.0" spacing="20.0">
+                           <children>
+                              <JFXButton maxHeight="1.7976931348623157E308" text="Sent" textFill="#565657f2">
+                                 <graphic>
+                                    <FontAwesomeIconView fill="#6a6ce8" glyphName="SEND_ALT" />
+                                 </graphic>
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </JFXButton>
+                              <Label alignment="BOTTOM_CENTER" style="-fx-background-radius: 5px;" text=" " />
+                           </children>
+                           <padding>
+                              <Insets left="3.0" />
+                           </padding>
+                        </HBox>
+                        <HBox alignment="CENTER_LEFT" prefHeight="34.0" prefWidth="191.0" spacing="20.0">
+                           <children>
+                              <JFXButton maxHeight="1.7976931348623157E308" text="Junk" textFill="#565657f2">
+                                 <graphic>
+                                    <FontAwesomeIconView fill="#6a6ce8" glyphName="DELETE_FOREVER" />
+                                 </graphic>
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </JFXButton>
+                              <Label alignment="BOTTOM_CENTER" style="-fx-background-radius: 5px;" text="4" />
+                           </children>
+                           <padding>
+                              <Insets left="3.0" />
+                           </padding>
+                        </HBox>
+                        <HBox alignment="CENTER_LEFT" prefHeight="34.0" prefWidth="191.0" spacing="20.0">
+                           <children>
+                              <JFXButton maxHeight="1.7976931348623157E308" text="Bin" textFill="#565657f2">
+                                 <graphic>
+                                    <FontAwesomeIconView fill="#6a6ce8" glyphName="TRASH_ALT" />
+                                 </graphic>
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </JFXButton>
+                              <Label alignment="BOTTOM_CENTER" style="-fx-background-radius: 5px;" text=" " />
+                           </children>
+                           <padding>
+                              <Insets left="3.0" />
+                           </padding>
+                        </HBox>
+                        <HBox alignment="CENTER_LEFT" prefHeight="34.0" prefWidth="191.0" spacing="20.0">
+                           <children>
+                              <JFXButton maxHeight="1.7976931348623157E308" text="Archives" textFill="#565657f2">
+                                 <graphic>
+                                    <FontAwesomeIconView fill="#6a6ce8" glyphName="ARCHIVE" />
+                                 </graphic>
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </JFXButton>
+                              <Label alignment="BOTTOM_CENTER" style="-fx-background-radius: 5px;" text="5463" />
+                           </children>
+                           <padding>
+                              <Insets left="3.0" />
+                           </padding>
+                        </HBox>
+                     </children>
+                     <padding>
+                        <Insets top="20.0" />
+                     </padding></VBox>
+               </children>
+               <padding>
+                  <Insets bottom="20.0" left="10.0" right="10.0" top="20.0" />
+               </padding>
+            </VBox>
+         </left>
+         <top>
+            <VBox prefHeight="82.0" prefWidth="769.0" BorderPane.alignment="CENTER">
+               <children>
+                  <HBox prefHeight="40.0" prefWidth="0.0">
+                     <children>
+                        <Label maxHeight="1.7976931348623157E308" prefHeight="17.0" prefWidth="207.0" text="Inbox - Jendortimex4real@gamil.com" />
+                        <JFXButton maxHeight="1.7976931348623157E308" prefHeight="40.0" prefWidth="40.0" text=" ">
+                           <graphic>
+                              <FontAwesomeIconView />
+                           </graphic>
+                        </JFXButton>
+                        <Separator orientation="VERTICAL" prefHeight="200.0" />
+                        <JFXButton prefHeight="40.0" prefWidth="40.0" text=" ">
+                           <graphic>
+                              <FontAwesomeIconView glyphName="INBOX" />
+                           </graphic>
+                        </JFXButton>
+                        <JFXButton prefHeight="40.0" prefWidth="40.0" text=" ">
+                           <graphic>
+                              <FontAwesomeIconView glyphName="PENCIL_BOX_OUTLINE" />
+                           </graphic>
+                        </JFXButton>
+                        <JFXButton prefHeight="40.0" prefWidth="40.0" text=" ">
+                           <graphic>
+                              <FontAwesomeIconView glyphName="ARCHIVE" />
+                           </graphic>
+                        </JFXButton>
+                        <Separator orientation="VERTICAL" prefHeight="200.0" />
+                        <JFXButton prefHeight="40.0" prefWidth="40.0" text=" ">
+                           <graphic>
+                              <FontAwesomeIconView glyphName="TRASH_ALT" />
+                           </graphic>
+                        </JFXButton>
+                        <Separator orientation="VERTICAL" prefHeight="200.0" />
+                        <JFXButton prefHeight="40.0" prefWidth="40.0" text=" ">
+                           <graphic>
+                              <FontAwesomeIconView />
+                           </graphic>
+                        </JFXButton>
+                        <JFXButton prefHeight="40.0" prefWidth="40.0" text=" ">
+                           <graphic>
+                              <FontAwesomeIconView glyphName="REPLY" text="" />
+                           </graphic>
+                        </JFXButton>
+                        <Separator orientation="VERTICAL" prefHeight="200.0" />
+                        <JFXButton prefHeight="40.0" prefWidth="40.0" text=" ">
+                           <graphic>
+                              <FontAwesomeIconView glyphName="MAIL_REPLY_ALL" />
+                           </graphic>
+                        </JFXButton>
+                        <Separator orientation="VERTICAL" prefHeight="200.0" />
+                        <JFXButton prefHeight="40.0" prefWidth="40.0" text=" ">
+                           <graphic>
+                              <FontAwesomeIconView glyphName="MAIL_FORWARD" />
+                           </graphic>
+                        </JFXButton>
+                        <JFXButton prefHeight="40.0" prefWidth="40.0" text=" ">
+                           <graphic>
+                              <FontAwesomeIconView glyphName="FLAG_ALT" size="15" />
+                           </graphic>
+                        </JFXButton>
+                        <Separator orientation="VERTICAL" prefHeight="200.0" />
+                        <JFXButton prefHeight="40.0" prefWidth="40.0" text=" ">
+                           <graphic>
+                              <FontAwesomeIconView glyphName="ANGLE_DOWN" />
+                           </graphic>
+                        </JFXButton>
+                        <JFXButton prefHeight="40.0" prefWidth="40.0" text=" ">
+                           <graphic>
+                              <FontAwesomeIconView glyphName="ANGLE_DOUBLE_RIGHT" />
+                           </graphic>
+                        </JFXButton>
+                        <JFXButton prefHeight="40.0" prefWidth="40.0" text=" ">
+                           <graphic>
+                              <FontAwesomeIconView glyphName="SEARCH" />
+                           </graphic>
+                        </JFXButton>
+                     </children>
+                  </HBox>
+                  <Separator prefWidth="200.0" />
+                  <HBox prefHeight="40.0" prefWidth="0.0">
+                     <children>
+                        <JFXButton prefHeight="40.0" text="Mailboxes" />
+                        <JFXButton prefHeight="40.0" text="Inbox" />
+                        <JFXButton prefHeight="40.0" text="Sent" />
+                        <JFXButton prefHeight="40.0" text="Drafts" />
+                        <JFXButton prefHeight="40.0" text="Flagged" />
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+         </top>
+         <center>
+            <SplitPane dividerPositions="0.5" prefHeight="160.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+              <items>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                     <children>
+                        <ScrollPane prefHeight="454.0" prefWidth="275.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                     </children></AnchorPane>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                     <children>
+                        <ScrollPane layoutX="21.0" layoutY="35.0" prefHeight="454.0" prefWidth="275.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                     </children></AnchorPane>
+              </items>
+            </SplitPane>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>

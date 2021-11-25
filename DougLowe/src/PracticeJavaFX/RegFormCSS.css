@@ -1,0 +1,11 @@
+.root{
+    -fx-padding: 20;
+    -fx-font: serif;
+    -fx-background-color: #900EF0;
+    
+}
+.button_register{
+    -fx-background-radius: 10;
+    -fx-background-color: #01ee32;
+    
+}

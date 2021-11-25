@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="584.0" prefWidth="776.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tableproject.FXMLDocumentController">
+   <children>
+      <TableView fx:id="table" layoutX="6.0" layoutY="78.0" prefHeight="482.0" prefWidth="510.0" style="-fx-background-color: cyan;">
+        <columns>
+          <TableColumn fx:id="nameCol" prefWidth="110.0" text="Name" />
+          <TableColumn fx:id="idCol" prefWidth="100.0" text="Student ID" />
+            <TableColumn minWidth="0.0" prefWidth="0.0" text="Column X" />
+            <TableColumn fx:id="phoneCol" prefWidth="131.0" text="Phone Number " />
+            <TableColumn fx:id="matricCol" prefWidth="94.0" text="Matric Number" />
+            <TableColumn fx:id="feeCol" prefWidth="75.0" text="Fees" />
+        </columns>
+      </TableView>
+      <Label alignment="TOP_LEFT" contentDisplay="TOP" layoutX="537.0" layoutY="3.0" prefHeight="56.0" prefWidth="254.0" text="Registration" textFill="#360f0d">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Label>
+      <VBox layoutX="526.0" layoutY="59.0" prefHeight="280.0" prefWidth="234.0" spacing="25.0">
+         <children>
+            <TextField fx:id="nameTextField" promptText="Name" />
+            <TextField fx:id="idTextField" promptText="Student ID" />
+            <TextField fx:id="phoneTextField" promptText="Phone Number " />
+            <TextField fx:id="matricTextField" promptText="Matric Number " />
+            <TextField fx:id="feeTextField" promptText="School Fees" />
+         </children>
+         <padding>
+            <Insets bottom="15.0" left="10.0" right="10.0" top="15.0" />
+         </padding>
+      </VBox>
+      <Button fx:id="save" alignment="CENTER" layoutX="617.0" layoutY="348.0" mnemonicParsing="false" onAction="#addStudent" style="-fx-background-color: green;" text="Register" />
+      <Button fx:id="print" alignment="CENTER" layoutX="537.0" layoutY="348.0" mnemonicParsing="false" onAction="#addStudent" style="-fx-background-color: green;" text="Print" />
+      <Label layoutX="35.0" layoutY="42.0" text="Filter Table:">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="filterTF" layoutX="123.0" layoutY="40.0" prefHeight="25.0" prefWidth="265.0" promptText="Find Text" />
+   </children>
+</AnchorPane>

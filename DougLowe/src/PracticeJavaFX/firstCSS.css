@@ -1,0 +1,12 @@
+.label{
+    -fx-text-fill: black;
+    -fx-font: "Arial";
+        
+}
+.button{
+    -fx-background-color: #900EF0;
+    
+}
+.paneThree{
+    -fx-background-color: #f5f5dd;
+}
